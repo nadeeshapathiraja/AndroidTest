@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Conveter 2</string>
+    <string name="usd_amont">USD Amont</string>
+    <string name="lkr_amont">LKR Amont</string>
+    <string name="convert">Convert</string>
+</resources>

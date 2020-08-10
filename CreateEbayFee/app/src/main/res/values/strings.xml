@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Create Ebay Fee</string>
+    <string name="lbl_title">Calclate Ebay and Paypal Fee</string>
+    <string name="lbl_price">Selling Price</string>
+    <string name="lbl_shipping">Shipping Cost</string>
+    <string name="lbl_ebay">Ebay Fee</string>
+    <string name="lbl_paypal">Paypal Fee</string>
+    <string name="button">Calculate</string>
+</resources>
