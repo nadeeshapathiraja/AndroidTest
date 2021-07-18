@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NumberPicker">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FF5722 </item>
+    </style>
+    <style name="NumberPickerhrs">
+        <item name="android:textSize">60sp</item>
+    </style>
+</resources>
