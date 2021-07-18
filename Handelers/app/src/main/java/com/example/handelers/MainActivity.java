@@ -3,6 +3,7 @@ package com.example.handelers;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -73,7 +74,9 @@ public class MainActivity extends AppCompatActivity {
                         m = (i%3600000)/60000;
                         s = ((i%3600000)%60000)/1000;
                         ms = ((i%3600000)%60000)%1000;
-//
+                        if(h==0 && m==0 && s==0 && ms==0){
+                            //Add extra services
+                        }
                         handle.sendEmptyMessage(0);
                     }catch (Exception e){
                         e.printStackTrace();
