@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                         s = ((i%3600000)%60000)/1000;
                         ms = ((i%3600000)%60000)%1000;
                         if(h==0 && m==0 && s==0 && ms==0){
-                            //Add extra services
+                            //Add extra servicesg
                         }
                         handle.sendEmptyMessage(0);
                     }catch (Exception e){
