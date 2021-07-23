@@ -70,11 +70,11 @@ public class MainActivity extends AppCompatActivity {
                 for(int i=totalMiliSecond; i>=0; i--){
                     try {
                         Thread.sleep(1);
-                        h = i/3600000;
-                        m = (i%3600000)/60000;
-                        s = ((i%3600000)%60000)/1000;
-                        ms = ((i%3600000)%60000)%1000;
-                        if(h==0 && m==0 && s==0 && ms==0){
+                        // h = i/3600000;
+                        // m = (i%3600000)/60000;
+                        // s = ((i%3600000)%60000)/1000;
+                        // ms = ((i%3600000)%60000)%1000;
+                        // if(h==0 && m==0 && s==0 && ms==0){
                             //Add extra servicesg
                         }
                         handle.sendEmptyMessage(0);
