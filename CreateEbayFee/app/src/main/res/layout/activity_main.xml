@@ -8,13 +8,15 @@
 
     <EditText
         android:id="@+id/sellingPrice"
-        android:layout_width="160dp"
+        android:layout_width="118dp"
         android:layout_height="43dp"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="200dp"
         android:ems="10"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/shippingPrice"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,8 +36,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
         android:layout_marginTop="156dp"
         android:text="@string/lbl_price"
         android:textColor="@color/colorlbl"
@@ -56,14 +58,14 @@
 
     <EditText
         android:id="@+id/shippingPrice"
-        android:layout_width="162dp"
+        android:layout_width="127dp"
         android:layout_height="41dp"
-        android:layout_marginTop="212dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginTop="204dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView

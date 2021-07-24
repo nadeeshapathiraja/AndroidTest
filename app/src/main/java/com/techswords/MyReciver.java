@@ -1,2 +1,22 @@
-package com.techswords;public class MyReciver {
+package com.techswords;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.telephony.TelephonyManager;
+import android.widget.Toast;
+
+public class MyReciver extends BroadcastReceiver {
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        Bundle extras =intent.getExtras();
+        if(extras != null){
+            String state = extras.getString(TelephonyManager.EXTRA_STATE);
+            if (state.equals(TelephonyManager.EXTRA_STATE_RINGING)){
+                String phoneNumber = extras.getString(TelephonyManager.EXTRA_CALL_VOICEMAIL_INTENT);
+                Toast.makeText(context, "You Recive a Call from"+phoneNumber, Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
 }
